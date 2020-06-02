@@ -9,7 +9,7 @@
 在這個實驗當中我們只在來源資料集T與目標資料集S當中選擇一筆資料作為訓練資料。
   * 初始設定 :
     * RMSprop as generator's optimizer, and SGD as discriminator's optimizer. Initial learning rate = 5e-5.
-    * Losses :　Two-Step Adversarial Losses(MSE), Cycle-consistency loss(MAE), Identity-mapping loss(MAE).
+    * Losses : Two-Step Adversarial Losses(MSE), Cycle-consistency loss(MAE), Identity-mapping loss(MAE).
   * The "G only" Phase :
     * 在這個階段，我們只訓練 Generator。
   * The "Loss change" Phase :
@@ -18,7 +18,7 @@
 在這個實驗當中我們使用來源資料集T與目標資料集S中的所有資料作為訓練資料。
   * 初始設定
     * RMSprop as generator's optimizer, and SGD as discriminator's optimizer. Initial learning rate = 5e-5.
-    * Losses :　Two-Step Adversarial Losses(MSE), Cycle-consistency loss(MAE), Identity-mapping loss(MAE).
+    * Losses : Two-Step Adversarial Losses(MSE), Cycle-consistency loss(MAE), Identity-mapping loss(MAE).
 ## Train Model
 在這個實驗當中我們只在來源資料集T與目標資料集S當中選擇一筆資料作為訓練資料。
   * 初始設定 :
