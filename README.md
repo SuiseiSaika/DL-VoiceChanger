@@ -28,13 +28,18 @@
     * RMSprop as generator's optimizer, and SGD as discriminator's optimizer. Initial learning rate = 5e-5.
     * Losses :　Two-Step Adversarial Losses(BCE), Cycle-consistency loss(MSE), Identity-mapping loss(MSE).  
 
-## Reference
-*
-*
-*
-*
-*
-*
+訓練結果呈現：
+![image](images/loss.png)
+![image](images/g_loss.png)
+## Conclusion ##
+雖然我們的設備與時間無法支持我們進行較為完整的實驗與訓練，但是我們仍然在實做中學習到許多知識。我們會持續學習並希望未來能夠真正達到我們的目標。
+## Reference ##
+* [PARALLEL-DATA-FREE VOICE CONVERSION USING CYCLE-CONSISTENT ADVERSARIAL NETWORKS](https://arxiv.org/pdf/1711.11293.pdf) (Takuhiro Kaneko, Hirokazu Kameoka. 2017.)
+* [CYCLEGAN-VC2: IMPROVED CYCLEGAN-BASED NON-PARALLEL VOICE CONVERSION](https://arxiv.org/pdf/1904.04631.pdf)(Takuhiro Kaneko, Hirokazu Kameoka, Kou Tanaka, Nobukatsu Hojo)
+* [Keras-GAN](https://github.com/eriklindernoren/Keras-GAN)(eriklindernoren)
+* [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/pdf/1703.10593.pdf)(Jun-Yan Zhu∗ Taesung Park∗ Phillip Isola Alexei A. Efros)
+* [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/pdf/1505.04597.pdf)(Olaf Ronneberger, Philipp Fischer, Thomas Brox)
+* [Voice Converter CycleGAN](https://github.com/leimao/Voice_Converter_CycleGAN)(Lei Mao, University of Chicago)
 ## Authors
 * National Chengchi University, NCCU
   * 資管四 105306088 陳昌碩
