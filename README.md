@@ -14,9 +14,6 @@
     * 在這個階段，我們只訓練 Generator。
   * The "Loss change" Phase :
     * 這個階段中的 Two-Step Adversarial Losses 改使用 Binary cross entropy(BCE)。
-  * 
-    * 簡報製作
-    * 資料蒐集
 * __一般訓練__ :
 在這個實驗當中我們使用來源資料集T與目標資料集S中的所有資料作為訓練資料。
   * 初始設定
