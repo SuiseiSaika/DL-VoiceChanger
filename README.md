@@ -28,7 +28,7 @@
 訓練結果呈現：
 ![image](images/loss.png)
 ![image](images/g_loss.png)
-## S ##
+## Summary ##
 雖然我們的設備與時間無法支持我們進行較為完整的實驗與訓練，但是我們仍然在實做中學習到許多知識。我們會持續學習並希望未來能夠真正達到我們的目標。
 ## Reference ##
 * [PARALLEL-DATA-FREE VOICE CONVERSION USING CYCLE-CONSISTENT ADVERSARIAL NETWORKS](https://arxiv.org/pdf/1711.11293.pdf) (Takuhiro Kaneko, Hirokazu Kameoka. 2017.)
