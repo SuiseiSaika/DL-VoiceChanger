@@ -20,7 +20,7 @@
     * RMSprop as generator's optimizer, and SGD as discriminator's optimizer. Initial learning rate = 5e-5.
     * Losses : Two-Step Adversarial Losses(MSE), Cycle-consistency loss(MAE), Identity-mapping loss(MAE).
 ## Train Model
-在這個實驗當中我們只在來源資料集T與目標資料集S當中選擇一筆資料作為訓練資料。
+我們使用VCC 2018 database的資料集作為訓練資料，並利用Librosa與pyworld函式庫做資料前處理。
   * 初始設定 :
     * RMSprop as generator's optimizer, and SGD as discriminator's optimizer. Initial learning rate = 5e-5.
     * Losses : Two-Step Adversarial Losses(BCE), Cycle-consistency loss(MSE), Identity-mapping loss(MSE).  
@@ -37,6 +37,7 @@
 * [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/pdf/1703.10593.pdf) (Jun-Yan Zhu∗ Taesung Park∗ Phillip Isola Alexei A. Efros)
 * [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/pdf/1505.04597.pdf) (Olaf Ronneberger, Philipp Fischer, Thomas Brox)
 * [Voice Converter CycleGAN](https://github.com/leimao/Voice_Converter_CycleGAN) (Lei Mao, University of Chicago)
+* [The Voice Conversion Challenge 2018: database and results](https://datashare.is.ed.ac.uk/handle/10283/3061)
 ## Authors
 * National Chengchi University, NCCU
   * 資管四 105306088 陳昌碩
