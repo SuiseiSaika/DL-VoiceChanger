@@ -5,8 +5,6 @@
 
 ## Experiment ##
 為了達成我們的目標，我們進行了多次實驗，以下是我們的實驗內容：
-* __One-shot learning__ :
-在這個實驗當中我們只在來源資料集T與目標資料集S當中選擇一筆資料作為訓練資料。
   * 初始設定 :
     * RMSprop as generator's optimizer, and SGD as discriminator's optimizer. Initial learning rate = 5e-5.
     * Losses : Two-Step Adversarial Losses(MSE), Cycle-consistency loss(MAE), Identity-mapping loss(MAE).
@@ -14,11 +12,6 @@
     * 在這個階段，我們只訓練 Generator。
   * The "Loss change" Phase :
     * 這個階段中的 Two-Step Adversarial Losses 改使用 Binary cross entropy(BCE)。
-* __一般訓練__ :
-在這個實驗當中我們使用來源資料集T與目標資料集S中的所有資料作為訓練資料。
-  * 初始設定
-    * RMSprop as generator's optimizer, and SGD as discriminator's optimizer. Initial learning rate = 5e-5.
-    * Losses : Two-Step Adversarial Losses(MSE), Cycle-consistency loss(MAE), Identity-mapping loss(MAE).
 ## Train Model
 我們使用VCC 2018 database的資料集作為訓練資料，並利用Librosa與pyworld函式庫做資料前處理。
   * 初始設定 :
